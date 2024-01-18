@@ -1,9 +1,3 @@
-<nav>
-  <a routerLink="/details/2" routerLinkActive="active">Details</a>
-  <a routerLink="/housing" routerLinkActive="active">Housing</a>
-  <a routerLink="/home" routerLinkActive="active">Home</a>
-</nav>
-
 <section>
       <form>
         <input type="text" placeholder="Filter by city" />
@@ -11,9 +5,8 @@
       </form>
     </section>
     <section class="results">
-            <app-housing-location
+        <app-housing-location
         *ngFor="let housingLocation of housingLocationList"
         [housingLocation]="housingLocation"
       ></app-housing-location>
     </section>
-<router-outlet></router-outlet>

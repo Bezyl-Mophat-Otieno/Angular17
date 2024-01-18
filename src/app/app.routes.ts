@@ -5,7 +5,7 @@ import { HousingLocationComponent } from './housing-location/housing-location.co
 
 
 export const routes: Routes = [
-    { path: 'details/:id', component: DetailsComponent },
-    { path: 'housing', component: HousingLocationComponent},
-    { path: '', component: HomeComponent },
+    { path: 'details/:id', component: DetailsComponent,title: 'Details' },
+    { path: 'housing', component: HousingLocationComponent , title: 'Housing Location'},
+    { path: '', component: HomeComponent,title: 'Home' },
 ];

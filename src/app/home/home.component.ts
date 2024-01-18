@@ -8,7 +8,7 @@ import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [HousingLocationComponent , CommonModule , RouterLink , RouterLinkActive , RouterOutlet],
+  imports: [HousingLocationComponent , CommonModule],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
